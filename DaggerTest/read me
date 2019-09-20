@@ -1,0 +1,15 @@
+####dagger2说明
+
+#####Dagger2的环境配置
+
+首先需要在Module中的build.gradle中引入插件java中使用apt，Kotlin中使用kapt
+    apply plugin: 'kotlin-kapt'
+
+接下来是引入依赖包和编译器
+    //dagger2
+    implementation "com.google.dagger:dagger:2.15"
+    kapt "com.google.dagger:dagger-compiler:2.15"
+    
+#####个人理解
+
+1，类的注解

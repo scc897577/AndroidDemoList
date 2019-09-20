@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewTest</string>
+    <string name="add">扫描增加数量</string>
+    <string name="addItem">扫描增加Item数量</string>
+</resources>

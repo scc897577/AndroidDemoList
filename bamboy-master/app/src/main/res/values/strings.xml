@@ -1,0 +1,532 @@
+<resources>
+    <string name="app_name">Bamboy合集</string>
+    <string name="tag_key_translation_z">translation_z</string>
+
+    <string name="title_bamboy_freedom_list">非约束列表</string>
+    <string name="title_bamboy_blur">高斯模糊</string>
+    <string name="title_bamboy_toast">自定义Toast</string>
+    <string name="title_bamboy_anim_click">点击动画</string>
+
+    <string name="slidingshut_git_str">GitHub地址：\nhttps://github.com/Bamboy120315/SlidingShut.git</string>
+    <string name="slidingshut_csdn_str">CSDN地址: \nhttps://bamboy.blog.csdn.net/article/details/83863260
+        \n
+        \n
+        如有问题欢迎加入技术探讨QQ群：\n
+        569614530\n</string>
+
+    <string name="introduce_foot">
+        \n
+        \n
+        git地址：\n
+        <a href="https://github.com/Bamboy120315/bamboy.git">https://github.com/Bamboy120315/bamboy.git</a>\n
+        \n
+        如有问题欢迎加入技术探讨QQ群：\n
+        569614530\n
+    </string>
+
+
+    <string name="progress_introduce_noun">
+        节点进度条属性：\n
+        \n
+        app:progress：       默认进度\n
+        app:progressMax：    最大进度\n
+        app:lineHeight：     进度条线条高度\n
+        app:colorFinished：  已完成的进度条的颜色\n
+        app:colorUnfinished：未完成的进度条的颜色\n
+        app:nounCount：      节点数量\n
+        app:colorUnfinished：未完成的进度条的颜色\n
+    </string>
+
+    <string name="progress_introduce_slope">
+         圆环进度条：\n
+        \n
+        支持5种类型：\n
+        app:imgType="not"       --> 空\n
+        app:imgType="success"   --> 对号\n
+        app:imgType="error"     --> 叉号\n
+        app:imgType="progress"  --> 当前进度\n
+        app:imgType="picture"   --> 图片\n
+        \n
+        其他属性：\n
+        app:progress：       默认进度\n
+        app:progressMax：    最大进度\n
+        app:lineWidth：      圆环的线条宽度\n
+        app:color：          圆环的颜色\n
+        app:pictureSrc：     图片的资源路径\n
+        app:pictureMargin：  图片与圈的间距\n
+    </string>
+
+    <string name="progress_introduce_movenumber">
+        移动数字进度条属性：\n
+        \n
+        app:progress：       默认进度\n
+        app:progressMax：    最大进度\n
+        app:lineHeight：     进度条线条高度\n
+        app:colorFinished：  已完成的进度条的颜色\n
+        app:colorUnfinished：未完成的进度条的颜色\n
+        app:textSize：       数字大小\n
+    </string>
+
+    <!-- 主页介绍 -->
+    <string name="introduce_main">
+        是将Bamboy几乎所有的Demo整合起来，\n
+        方便朋友们查找Demo。\n
+        \n
+        目前合集中整合的内容有：\n
+        \n
+        1、非约束列表（近期会更新）\n
+        插件化RecyclerView，\n
+        又称万能适配器。\n
+        近期会更新，\n
+        更好的兼容单列与多列混合的情况。\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/71727461\n
+        \n
+        2、节点进度条\n
+        完全用Canvas画出来的，\n
+        颜色、节点数量、尺寸均可控制，\n
+        还支持监听。\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/79825006\n
+        \n
+        3、无感分页（分批加载）\n
+        无感分页，\n
+        无须三方，\n
+        被京东、淘宝等各大APP“借鉴”，\n
+        分页加载最佳方案。\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/54408691\n
+        \n
+        4、高斯模糊（毛玻璃）\n
+        性能高，\n
+        效果好，\n
+        使用简单。\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/54345636\n
+        \n
+        5、点击动画\n
+        使用简单，\n
+        效果炫酷。\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/54342079\n
+        \n
+        6、Toast（近期会更新，无视通知权限）\n
+        BamToast全新升级，\n
+        即使没有通知权限也可以弹出Toast，\n
+        \n
+        详情链接：https://bamboy.blog.csdn.net/article/details/54952174\n
+        \n
+        7、View自动换行\n
+        支持自动换行的View\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/54409840\n
+        \n
+        8、右滑关闭（无须透明主题）\n
+        Android 8.0禁止非全屏的Activity使用透明主题，\n
+        否则会引发：\n
+        Only fullscreen opaque activities can request orientation\n
+        SlidingShut 2.0，\n
+        兼容Android 8.0，\n
+        兼容SDK 27，\n
+        无须透明主题。\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/83863260\n
+        \n
+        9、物流卡片\n
+        使用ViewPager+Fragment的实现方式，\n
+        只是给ViewPager增加了Transformer，\n
+        内置三种切换效果：\n
+        \t\t· 层叠(京东)\n
+        \t\t· 缩放\n
+        \t\t· 风车(淘宝)\n
+        三种出场动画：\n
+        \t\t· 逐一\n
+        \t\t· 展开\n
+        \t\t· 旋转\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/88415267\n
+        \n
+        10、信息滚动ViewFlipperDemo\n
+        类似淘宝、京东、今日头条的信息滚动效果。\n
+        使用原生控件，\n
+        性能高，稳定性好，\n
+        除了最经典的动画外，\n
+        本人又写了六个效果。\n
+        详情链接：https://bamboy.blog.csdn.net/article/details/88793011\n
+        \n
+        \n
+        \n
+        CSDN地址：\n
+        <a href="https://bamboy.blog.csdn.net">https://bamboy.blog.csdn.net</a>
+    </string>
+
+    <!-- 自定义Toast介绍 -->
+    <string name="introduce_toast">
+        \n
+        \n
+        ━━━━━━━━━━━━━━━━━\n
+        名词介绍：\n
+        \n
+        BToast：\n
+        本人之前写的自定义Toast。\n
+        \n
+        EToast：\n
+        网上一个大神写的，\n
+        可以在没有通知权限的情况下弹出的Toast。\n
+        \n
+        BamToast：\n
+        EToast + BToast。\n
+        ━━━━━━━━━━━━━━━━━\n
+        \n
+        正常Toast在用户关闭了通知权限后就无法弹出了，\n
+        BamToast解决了这个问题，\n
+        方案采用网上的EToast + BToast。\n
+        \n
+        实现很简单，\n
+        判断通知权限，\n
+        如果有通知权限，\n
+        就正常使用BToast，\n
+        否则使用EToast。\n
+        \n
+        至于EToast在未打开通知权限也能弹出的原理，\n
+        其实很简单，\n
+        通知权限未获取时，\n
+        BToast其实还是正常绘制的，\n
+        只是由于权限问题无法显示而已，\n
+        EToast则是通过getView()，\n
+        获取了绘制但未显示的Toast，\n
+        然后将其在Activity中显示出来。\n
+        \n
+        那么和BToast有什么区别呢？\n
+        \n
+        1、BToast在显示和退出时有渐变动画，\n
+        EToast没有，\n
+        所以视觉上稍稍欠佳，\n
+        不过没事，\n
+        BamToast的图标是有动画的，\n
+        一定程度上有所弥补。\n
+        \n
+        2、BToast是系统级的，\n
+        所以Activity离开也能正常显示，\n
+        而EToast是基于Activity的，\n
+        所以若Activity离开，\n
+        EToast也会随之离开。\n
+        \n
+        3、因为EToast是基于Activity的，\n
+        所以必须要使用本类的Context,\n
+        不能使用getApplicationContext()，\n
+        切记！\n
+        \n
+    </string>
+
+    <!-- 高斯模糊介绍 -->
+    <string name="introduce_blur">
+        \n
+        \n
+        Bamboy高斯模糊，\n
+        也叫毛玻璃效果，\n
+        使用目前为止效率最高的算法，\n
+        使用起来也很简单，\n
+        只要调用blurImageView方法即可，\n
+        该方法有三个参数：\n
+        1：上下文；\n
+        2：需要模糊的ImageView；\n
+        3：模糊程度(0~25)。\n
+        \n
+        如果觉得最大模糊程度25还不够的话，\n
+        这个方法再调一遍即可。\n
+        \n
+        我个人认为，\n
+        毛玻璃最广泛的应用场景应该是弹窗，\n
+        所以我单独写了一个关于弹窗的方法\n
+        大家可以参照本Demo里\n
+        clickPopupWindow()方法\n
+        \n
+        本Demo的CSDN地址：\n
+        <a href="http://bamboy.blog.csdn.net/article/details/54345636">http://bamboy.blog.csdn.net/article/details/54345636</a>
+    </string>
+
+    <!-- 自动换行介绍 -->
+    <string name="introduce_auto_line">
+        \n
+        \n
+        Bamboy的自动换行，\n
+        使用起来很简单，\n
+        只需要把子View\n
+        add到BamAutoLineList中即可。\n
+        \n
+        嗯，\n
+        就是这么简单。\n
+        \n
+        \n
+        本Demo的CSDN地址：\n
+        <a href="http://bamboy.blog.csdn.net/article/details/54409840">http://bamboy.blog.csdn.net/article/details/54409840</a>
+    </string>
+
+    <!-- 分批加载介绍 -->
+    <string name="introduce_divide_load">
+        \n
+        \n
+        Bamboy的分批加载，\n
+        不需要上拉的分批加载，\n
+        不需要第三方控件的分批加载，\n
+        用户无感知的分批加载，\n
+        (ps:除非用户网速很差)\n
+        \n
+        实现起来也很简单，\n
+        只需要一个监听器，\n
+        监听RecyclerView滚动状态，\n
+        当滚动到倒数第三个条目，\n
+        就开始加载下一页数据。\n
+        \n
+        不过为了避免网速差、\n
+        或服务器异常等问题，\n
+        还是要给用户一个提示的，\n
+        所以我的方案是在页脚，\n
+        显示一个TextView，\n
+        用于提示用户当前状态，\n
+        我设置的有四种状态：\n
+        \n
+        1、正常状态\n
+        蓄势待发，\n
+        随时可以点击加载下一页。\n
+        \n
+        2、正在加载\n
+        正在读取下一页内容，\n
+        除非读取结束，\n
+        否则不会改变。\n
+        更重要的是防止异步带来的困扰，\n
+        例如第三页数据还没回来，\n
+        第四页就又开始请求了，\n
+        有了这个状态，\n
+        在网络请求时做个小判断，\n
+        我们就不用再为异步而头疼了。\n
+        \n
+        3、已加载全部\n
+        当所有数据都已读取完毕，\n
+        就是功德圆满的时刻，\n
+        一切结束不解释。\n
+        \n
+        4、读取异常\n
+        这个其实很常见，\n
+        服务器异常、\n
+        网络不畅等，\n
+        这个时候这行文本就有了另一个功能，\n
+        那就是点击重新加载。\n
+        \n
+        是不是很清新脱俗、\n
+        通俗易懂？\n
+        \n
+        \n
+        不过RecyclerView添加页脚比较麻烦，\n
+        ListView就很简单，\n
+        我之前写过一篇CSDN，\n
+        是关于ListView的分批加载，\n
+        使用的是相同的思路，\n
+        有需要的同学可以研究下：\n
+        <a href="http://bamboy.blog.csdn.net/article/details/54408691">http://bamboy.blog.csdn.net/article/details/54408691</a>
+    </string>
+
+    <!-- 点击动画介绍 -->
+    <string name="introduce_anim_click">
+        \n
+        \n
+        酷炫的点击动画，\n
+        不需要在代码中写一大堆监听，\n
+        只需要使用我写好的View就好。\n
+        \n
+        打个比方，\n
+        使用Button，\n
+        只需要XML里换成BamButton即可，\n
+        Java代码里不需要改成Bambutton。\n
+        \n
+        本来到这里就结束了，\n
+        但是有几个小坑还是需要说一下的：\n
+        \n
+        1、\n
+        关于点击效果：\n
+        我为大家提供的，\n
+        有两种点击效果，\n
+        \n
+        第一种是华丽效果，\n
+        即上边GIF里大家看到的效果；\n
+        \n
+        第二种是缩放效果，\n
+        它与华丽效果的区别在于，\n
+        使用默认的华丽效果时，\n
+        点击View的上、下、左、右、中，\n
+        分别对应的5种不一样的动画：\n
+        \n
+        上 ————> 后翻\n
+        下 ————> 前翻\n
+        左 ————> 左侧翻\n
+        右 ————> 右侧翻\n
+        中 ————> 缩放\n
+        \n
+        而缩放效果，\n
+        无论点击哪个位置，\n
+        都只有缩放的动画。\n
+        \n
+        而想要切换效果也很简单：\n
+        先把View转为BamView，\n
+        然后调用closeSuperb()即可。\n
+        \n
+        如：\n
+        ((BamImageView)iv_anim_click).closeSuperb();\n
+        \n
+        \n
+        2、\n
+        关于阴影：\n
+        Android 5.0以后，\n
+        想要阴影效果，\n
+        设置translationZ属性即可，\n
+        但是我设置该属性后却没有任何阴影，\n
+        网上查找资料也没能解决。\n
+        \n
+        最后发现，\n
+        因为View没有设置background属性，\n
+        所以才没有阴影效果的。\n
+        \n
+        比如ImageView，\n
+        你设置了src都不行，\n
+        必须要设置background属性。\n
+        \n
+        而且background透明度越低，\n
+        阴影的效果也就越低。\n
+        \n
+        \n
+        3、\n
+        关于点击事件：\n
+        我建议哪个View需要这种效果，\n
+        就给哪个View加，\n
+        其他的View就不要加了，\n
+        不仅为性能考虑，\n
+        更为了用户体验考虑。\n
+        \n
+        \n
+        本Demo的CSDN地址：\n
+        <a href="http://bamboy.blog.csdn.net/article/details/54342079">http://bamboy.blog.csdn.net/article/details/54342079</a>
+    </string>
+
+    <!-- 非约束列表介绍 -->
+    <string name="introduce_freedom">
+        \n
+        \n
+        非约束列表，\n
+        是尘少自主研发的新概念技术。\n
+        \n
+        (本篇为RecyclerView专用)\n
+        \n
+        v2.0更新：\n
+        - 支持团队开发\n
+        - 支持单列多列混合模式\n
+        \n
+        非约束的意义在于，\n
+        无需在Adapter里写代码，\n
+        所有逻辑均在Bean里完成。\n
+        \n
+        这样有什么好处呢？\n
+        打个比方，\n
+        假如你的首页有个item，\n
+        UI、功能都写好了，\n
+        你的老板说新页面也要有这个item，\n
+        那你就要把首页的相关代码copy过去，\n
+        Adapter里的代码也要copy过去。\n
+        这还不算太糟，\n
+        有一天老板说这个item要有新功能，\n
+        那你是不是首页和新页面都要改？\n
+        只有这两个页面那还好说，\n
+        但是你要是有七八个呢？\n
+        \n
+        这时非约束列表的优势就体现出来了，\n
+        只需要改下Bean里的逻辑，\n
+        所有的页面都OK。\n
+        感觉是不是效率一下子就提升了？\n
+        \n
+        非约束列表好用是好用，\n
+        不过也有缺点，\n
+        最大的缺点应该就是不习惯了吧，\n
+        其次是性能，\n
+        主要是因为使用了反射的缘故，\n
+        性能当然不能和原生的相比，\n
+        不过相差也不大，\n
+        在这个普遍性能过剩的时代，\n
+        我个人认为，\n
+        性能下降了一点，\n
+        开发效率却提高了，\n
+        还是说得过去的。\n
+        \n
+        如果想进一步了解，\n
+        可以看下本Demo的CSDN，\n
+        获得详解以及使用方法：\n
+        <a href="http://bamboy.blog.csdn.net/article/details/71727461">http://bamboy.blog.csdn.net/article/details/71727461</a>\n
+        \n
+    </string>
+
+    <!-- 节点进度条介绍 -->
+    <string name="introduce_noun_progress">
+        \n
+        \n
+        之前公司项目需要一个带节点的进度条，\n
+        本来想偷个懒从网上找一个， \n
+        结果找了几个都不满意。\n
+        \n
+        要不然就是用遮罩原理， \n
+        要不然就是用图片拼接， \n
+        这样的话缺点很明显， \n
+        实现方式Low就先不说， \n
+        颜色、节点尺寸、节点数量全都不可控，\n
+        要不然就是不能控制精准进度。\n
+        \n
+        于是我就自己写了一个， \n
+        完全用Canvas画出来的， \n
+        所以颜色、节点数量、尺寸全都是可随意控制的，\n
+        还顺手加上了监听。\n
+        \n
+        \n
+        如果想进一步了解，\n
+        可以看下本Demo的CSDN，\n
+        获得详解以及使用方法：\n
+        <a href="https://bamboy.blog.csdn.net/article/details/79825006">https://bamboy.blog.csdn.net/article/details/79825006</a>\n
+    </string>
+
+    <!-- 物流卡片介绍 -->
+    <string name="introduce_express_card">
+        新版的京东和淘宝有一个交互感觉不错，\n
+        待收货订单会有类似探探那样的卡片效果，\n
+        滑动查看下一条物流的信息，\n
+        近期UI部门说要做这个效果，\n
+        于是我就写了这个Demo，\n
+        和大家交流一下。\n
+        \n
+        本Demo使用的是ViewPager+Fragment的实现方式，\n
+        只是给ViewPager增加了Transformer，\n
+        本Demo内置了三种切换效果： \n
+        · 层叠(京东) \n
+        · 缩放 \n
+        · 风车(淘宝)  \n
+        \n
+        三种出场动画： \n
+        · 逐一 \n
+        · 展开 \n
+        · 旋转
+        \n
+        如果想进一步了解，\n
+        可以看下本Demo的CSDN：\n
+        <a href="https://bamboy.blog.csdn.net/article/details/88415267">https://bamboy.blog.csdn.net/article/details/88415267</a>\n
+        \n
+        git地址：\n
+        <a href="https://github.com/Bamboy120315/ExpressCard">https://github.com/Bamboy120315/ExpressCard</a>\n
+        \n
+        如有问题欢迎加入技术探讨QQ群：\n
+        569614530\n
+    </string>
+
+    <!-- 信息滚动介绍 -->
+    <string name="introduce_flipper">
+        \n
+        \n
+        ViewFlipperDemo，\n
+        类似淘宝、京东、今日头条的信息滚动效果。\n
+        使用原生控件，\n
+        性能高，稳定性好，\n
+        除了最经典的动画外，\n
+        本人又写了六个效果。\n
+        \n
+        本Demo的CSDN：\n
+        <a href="https://bamboy.blog.csdn.net/article/details/88793011">https://bamboy.blog.csdn.net/article/details/88793011</a>
+    </string>
+
+</resources>

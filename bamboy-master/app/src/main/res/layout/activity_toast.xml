@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <include layout="@layout/include_title_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rl_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_start_up_finish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical"
+                    android:paddingBottom="6dp"
+                    android:translationZ="@dimen/item_translation_z">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="BamToast现已升级，\n即使没有通知权限，\n也可以正常弹出，\n把通知权限关掉试试看："
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp" />
+
+                    <com.bamboy.bamboycollected.views.clickanimview.BamButton
+                        android:id="@+id/tv_notification"
+                        style="@style/single_btn_style"
+                        android:layout_marginBottom="0dp"
+                        android:text="【打开/关闭】通知权限"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="注：部分机型可能跳转不到通知权限设置页，请手动设置"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <com.bamboy.bamboycollected.views.clickanimview.BamButton
+                    android:id="@+id/tv_text"
+                    style="@style/single_btn_style"
+                    android:text="显示纯文字Toast" />
+
+                <com.bamboy.bamboycollected.views.clickanimview.BamButton
+                    android:id="@+id/tv_text_y"
+                    style="@style/single_btn_style"
+                    android:text="显示文字+对号Toast" />
+
+                <com.bamboy.bamboycollected.views.clickanimview.BamButton
+                    android:id="@+id/tv_text_n"
+                    style="@style/single_btn_style"
+                    android:text="显示文字+叉号Toast" />
+
+                <com.bamboy.bamboycollected.views.clickanimview.BamButton
+                    android:id="@+id/tv_text_l"
+                    style="@style/single_btn_style"
+                    android:text="显示长时间纯文字Toast" />
+
+                <com.bamboy.bamboycollected.views.clickanimview.BamButton
+                    android:id="@+id/tv_text_y_l"
+                    style="@style/single_btn_style"
+                    android:text="显示长时间文字+对号Toast" />
+
+                <com.bamboy.bamboycollected.views.clickanimview.BamButton
+                    android:id="@+id/tv_text_n_l"
+                    style="@style/single_btn_style"
+                    android:text="显示长时间文字+叉号Toast" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <include layout="@layout/include_introduce" />
+</RelativeLayout>

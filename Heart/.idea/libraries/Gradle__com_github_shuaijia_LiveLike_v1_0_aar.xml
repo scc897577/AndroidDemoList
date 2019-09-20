@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.shuaijia:LiveLike:v1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bf9bdb8abc9e1c7ed89650c8d246ae7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bf9bdb8abc9e1c7ed89650c8d246ae7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bf9bdb8abc9e1c7ed89650c8d246ae7/jars/classes.jar!/" />
+    </SOURCES>
+  </library>
+</component>
