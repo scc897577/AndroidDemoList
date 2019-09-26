@@ -1,6 +1,7 @@
 package com.kt.rxdemo
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -13,6 +14,7 @@ import com.orhanobut.logger.Logger
 import io.reactivex.*
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
+import kotlinx.android.synthetic.main.activity_main.*
 import org.reactivestreams.Subscription
 
 @SuppressLint("CheckResult")
@@ -26,7 +28,12 @@ class MainActivity : AppCompatActivity() {
 //        init()              //初始化的操作
 //        threadChange()      //线程切换的操作
 
+        mTv.setOnClickListener {
+            startActivity(Intent(this, HandlerActivity::class.java))
+        }
+
     }
+
 
     /**
      * 创建观察者和被观察者
