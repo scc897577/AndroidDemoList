@@ -5,6 +5,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.kt.rxdemo.operator.FlatMapActivity
+import com.kt.rxdemo.operator.MapActivity
+import com.kt.rxdemo.operator.TimerActivity
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.rxkotlin.toObservable
@@ -30,6 +33,15 @@ class MainActivity : AppCompatActivity() {
 
         mTv.setOnClickListener {
             startActivity(Intent(this, HandlerActivity::class.java))
+        }
+        mTvTimer.setOnClickListener {
+            startActivity(Intent(this, TimerActivity::class.java))
+        }
+        mTvMap.setOnClickListener {
+            startActivity(Intent(this, MapActivity::class.java))
+        }
+        mTvFlatMap.setOnClickListener {
+            startActivity(Intent(this, FlatMapActivity::class.java))
         }
 
     }

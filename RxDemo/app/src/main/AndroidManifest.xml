@@ -9,6 +9,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".operator.FlatMapActivity">
+        </activity>
+        <activity android:name=".operator.MapActivity">
+        </activity>
+        <activity android:name=".operator.TimerActivity">
+        </activity>
         <activity android:name=".HandlerActivity">
         </activity>
         <activity android:name=".MainActivity">

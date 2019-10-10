@@ -18,7 +18,6 @@ import java.util.concurrent.TimeUnit
 class HandlerActivity : AppCompatActivity() {
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_handler)
@@ -30,7 +29,7 @@ class HandlerActivity : AppCompatActivity() {
                 .doOnNext {
                     Logger.d("当前线程  --> ${Thread.currentThread().name}  进度值为  --->  $it")
                 }
-                .observeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(object : Observer<Long> {
                     override fun onComplete() {
                     }
