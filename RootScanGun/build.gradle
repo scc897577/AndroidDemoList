@@ -1,11 +1,47 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.3.31'
+    /** kotlin版本 */
+    ext.kotlin_version = '1.3.21'
+    /** SDK编译版本 */
+    ext.compile_sdk_version = 27
+    /** 最小支持的SDK版本 */
+    ext.min_sdk_version = 15
+    /** 目标兼容的SDK版本 */
+    ext.target_sdk_version = 25
+    /** 辅助包版本 */
+    ext.android_support_version = "27.1.0"
+    /** anko版本 */
+    ext.anko_version = '0.10.4'
+    /** RxAndroid版本 */
+    ext.rx_android_version = '2.0.2'
+    /** OKHttp版本 */
+    ext.ok_http_version = '3.10.0'
+    /** retrofit版本 */
+    ext.retrofit_version = '2.4.0'
+    /** dagger版本 */
+    ext.dagger_version = '2.15'
+    /** RxLifecycle版本 */
+    ext.rx_lifecycle_version = '2.2.1'
+    /** glide版本 */
+    ext.glide_version = "3.7.0"
+    /** 圆形图片版本 */
+    ext.circle_imageView_version = "2.1.0"
+    /** 图片版本 */
+    ext.take_photo_version = "4.0.3"
+    /** 弹窗版本 */
+    ext.alert_view_version = "1.0.3"
+    /** 多状态视图版本 */
+    ext.multi_state_view_version = '1.3.2'
+    /** 组件化路由版本 */
+    ext.arouter_api_version = '1.3.1'
+    /** 组件化路由编译版本 */
+    ext.arouter_compiler_version = '1.1.4'
+
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.1'
@@ -19,7 +55,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        maven { url 'https://jitpack.io' }
     }
 }
 
