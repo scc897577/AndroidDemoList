@@ -1,2 +1,0 @@
-# Referenced at E:\AndroidTest\Music\imooc_voice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11
--keep class androidx.multidex.MultiDexApplication { <init>(...); }
