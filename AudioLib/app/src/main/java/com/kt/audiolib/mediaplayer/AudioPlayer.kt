@@ -10,7 +10,8 @@ import android.os.Message
 import android.os.PowerManager
 import android.util.Log
 import com.kt.audiolib.app.AudioHelper
-import com.kt.audiolib.bean.AudioBean
+import com.kt.audiolib.bean.*
+import org.greenrobot.eventbus.EventBus
 import java.lang.Exception
 
 /*
@@ -26,6 +27,8 @@ class AudioPlayer : MediaPlayer.OnCompletionListener, MediaPlayer.OnBufferingUpd
     private val TAG = "AudioPlayer"
     private val TIME_MSG = 0x01
     private val TIME_INVAL = 100
+    private var isPauseByFocusLossTransient = false
+
 
     //真正负责音频的播放
     private var mCustomMediaPlayer: CustomMediaPlayer? = null
@@ -73,23 +76,13 @@ class AudioPlayer : MediaPlayer.OnCompletionListener, MediaPlayer.OnBufferingUpd
             mCustomMediaPlayer?.setDataSource(audioBean.mUrl)
             mCustomMediaPlayer?.prepareAsync()
             //对外发送load事件
+            EventBus.getDefault().post(AudioLoadEvent(audioBean))
         } catch (e: Exception) {
             //对外发送error事件
+            EventBus.getDefault().post(AudioErrorEvent())
         }
     }
 
-    /**
-     * 内部开始播放
-     */
-    private fun start() {
-        if (mAudioFocusManager?.requestAudioFocus()!!.not()) {
-            Log.e(TAG, "获取音频焦点失败")
-            return
-        }
-        mCustomMediaPlayer?.start()
-        mWifiLock?.acquire()
-        //对外发送start事件
-    }
 
     /**
      * 对外提供的暂停
@@ -106,7 +99,7 @@ class AudioPlayer : MediaPlayer.OnCompletionListener, MediaPlayer.OnBufferingUpd
                 mAudioFocusManager!!.abandonAudioFocus()
             }
             //发送暂停事件
-
+            EventBus.getDefault().post(AudioPauseEvent())
         }
     }
 
@@ -116,6 +109,7 @@ class AudioPlayer : MediaPlayer.OnCompletionListener, MediaPlayer.OnBufferingUpd
      */
     fun resume() {
         if (getStatus() == CustomMediaPlayer.Status.PAUSED) {
+            //复用start
             start()
         }
     }
@@ -138,48 +132,85 @@ class AudioPlayer : MediaPlayer.OnCompletionListener, MediaPlayer.OnBufferingUpd
         mWifiLock = null
         mAudioFocusManager = null
         //发送release销毁事件
+        EventBus.getDefault().post(AudioReleaseEvent())
     }
 
 
-    /**
-     * 获取播放器当前的状态
-     */
-    private fun getStatus(): CustomMediaPlayer.Status {
+    /** 播放完毕回调 */
+    override fun onCompletion(p0: MediaPlayer?) {
+        EventBus.getDefault().post(AudioCompleteEvent())
+    }
+
+    /** 缓存进度回调 */
+    override fun onBufferingUpdate(p0: MediaPlayer?, p1: Int) {
+
+    }
+
+    /** 准备完毕，进入播放 */
+    override fun onPrepared(p0: MediaPlayer?) {
+        start()
+    }
+
+    /** 播放出错回调 */
+    override fun onError(p0: MediaPlayer?, p1: Int, p2: Int): Boolean {
+        //此处AudioErrorEvent实体类和在load时实体类为同一个类，需要区分（如有用到）
+        EventBus.getDefault().post(AudioErrorEvent())
+        // return true Error 事件一旦发生就不需要在回调onCompletion方法了，代表自行处理异常
+        return true
+    }
+
+    /** 再次获取音频焦点 */
+    override fun audioFocusGrant() {
+        //设置音量
+        setVolume(1.0f, 1.0f)
+        if (isPauseByFocusLossTransient) {
+            //再次获得焦点时，恢复播放
+            resume()
+        }
+        isPauseByFocusLossTransient = false
+    }
+
+    /** 永久失去了音频焦点 */
+    override fun audioFocusLoss() {
+        pause()
+    }
+
+    /** 短暂性失去焦点 */
+    override fun audioFocusLossTransient() {
+        pause()
+        isPauseByFocusLossTransient = true
+    }
+
+    /** 瞬间失去焦点 */
+    override fun audioFocusLossDuck() {
+        //声音减半
+        setVolume(0.5f, 0.5f)
+    }
+
+    // 设置音量
+    private fun setVolume(leftVol: Float, rightVol: Float) {
+        if (mCustomMediaPlayer != null) {
+            mCustomMediaPlayer!!.setVolume(leftVol, rightVol)
+        }
+    }
+
+    /** 获取播放器当前的状态 */
+    fun getStatus(): CustomMediaPlayer.Status {
         if (mCustomMediaPlayer != null) {
             return mCustomMediaPlayer!!.getState()
         }
         return CustomMediaPlayer.Status.STOPPED
     }
 
-    override fun onCompletion(p0: MediaPlayer?) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    override fun onBufferingUpdate(p0: MediaPlayer?, p1: Int) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    override fun onPrepared(p0: MediaPlayer?) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    override fun onError(p0: MediaPlayer?, p1: Int, p2: Int): Boolean {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    override fun audioFocusGrant() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    override fun audioFocusLoss() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    override fun audioFocusLossTransient() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    override fun audioFocusLossDuck() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    // 内部开始播放
+    private fun start() {
+        if (mAudioFocusManager?.requestAudioFocus()!!.not()) {
+            Log.e(TAG, "获取音频焦点失败")
+            return
+        }
+        mCustomMediaPlayer?.start()
+        mWifiLock?.acquire()
+        //对外发送start事件
+        EventBus.getDefault().post(AudioStartEvent())
     }
 }

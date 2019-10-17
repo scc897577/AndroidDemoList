@@ -8,7 +8,7 @@ import com.imooc.imooc_voice.model.CHANNEL;
 import com.imooc.imooc_voice.view.discory.DiscoryFragment;
 import com.imooc.imooc_voice.view.friend.FriendFragment;
 import com.imooc.imooc_voice.view.mine.MineFragment;
-import com.imooc.imooc_voice.view.VideoFragment;
+//import com.imooc.imooc_voice.view.VideoFragment;
 
 public class HomePagerAdapter extends FragmentPagerAdapter {
 
@@ -31,7 +31,7 @@ public class HomePagerAdapter extends FragmentPagerAdapter {
             case CHANNEL.FRIEND_ID:
                 return FriendFragment.newInstance();
             case CHANNEL.VIDEO_ID:
-                return VideoFragment.newInstance();
+//                return VideoFragment.newInstance();
         }
         return null;
     }
