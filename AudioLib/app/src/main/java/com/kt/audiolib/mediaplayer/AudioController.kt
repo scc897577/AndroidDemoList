@@ -3,8 +3,11 @@ package com.kt.audiolib.mediaplayer
 import com.kt.audiolib.bean.AudioBean
 import org.greenrobot.eventbus.EventBus
 import kotlin.random.Random
-import com.kt.audiolib.bean.AudioBean
 import com.kt.audiolib.exception.AudioQueueEmptyException
+import com.kt.audiolib.bean.AudioErrorEvent
+import org.greenrobot.eventbus.ThreadMode
+import org.greenrobot.eventbus.Subscribe
+import com.kt.audiolib.bean.AudioCompleteEvent
 
 
 /*
@@ -25,13 +28,17 @@ class AudioController {
 
     /** 双重校验锁式单例模式 */
     companion object {
-        private var mAudioPlayer = AudioPlayer()                 //核心播放器
+        private var mAudioPlayer = AudioPlayer()                //核心播放器
         private var mQueue = mutableListOf<AudioBean>()         //歌曲队列
-        private var mQueueIndex = 0                             //当前播放歌曲索引
-        private var mPlayMode = PlayMode.LOOP                   //循环模式
+        private var mQueueIndex = 0                             //当前播放歌曲索引   -->  默认为0
+        private var mPlayMode = PlayMode.LOOP                   //循环模式   -->  默认为列表循环
         val instance: AudioController by lazy(mode = LazyThreadSafetyMode.SYNCHRONIZED) {
             AudioController()
         }
+    }
+
+    init {
+        if (EventBus.getDefault().isRegistered(this).not()) EventBus.getDefault().register(this)
     }
 
     fun getQueue(): MutableList<AudioBean> {
@@ -39,7 +46,7 @@ class AudioController {
     }
 
     /** 设置播放队列 */
-    fun setQueue(queue: MutableList<AudioBean>) {
+   fun setQueue(queue: MutableList<AudioBean>) {
         setQueue(queue, 0)
     }
 
@@ -49,6 +56,7 @@ class AudioController {
         mQueueIndex = queueIndex
     }
 
+    /** 获得播放设置 */
     fun getPlayMode(): PlayMode {
         return mPlayMode
     }
@@ -126,6 +134,7 @@ class AudioController {
             resume()
         }
     }
+
     /** 添加单一歌曲到指定位置 */
     fun addAudio(bean: AudioBean) {
         this.addAudio(0, bean)
@@ -141,7 +150,7 @@ class AudioController {
             addCustomAudio(index, bean)
             setPlayIndex(index)
         } else {
-            var abean = getNowPlaying()
+            val abean = getNowPlaying()
             if (abean.id != bean.id) {
                 //已经添加过，并且不在播放中
                 setPlayIndex(query)
@@ -153,6 +162,7 @@ class AudioController {
 
     }
 
+    /** 得到当前播放的实体类 */
     private fun getNowPlaying(): AudioBean {
         return getPlaying(mQueueIndex)
     }
@@ -171,9 +181,10 @@ class AudioController {
 
             }
         }
-        return getPlaying()
+        return getPlaying(mQueueIndex)
     }
 
+    /** 播放上一个 */
     private fun getPreviousPlaying(): AudioBean {
         when (mPlayMode) {
             PlayMode.LOOP -> {
@@ -187,17 +198,32 @@ class AudioController {
 
             }
         }
-        return getPlaying()
+        return getPlaying(mQueueIndex)
     }
 
-    private fun getPlaying(): AudioBean {
-        if (mQueue.isNullOrEmpty() && mQueueIndex >= 0 && mQueueIndex < mQueue.size) {
-            return mQueue[mQueueIndex]
+    private fun getPlaying(index: Int): AudioBean {
+        if (mQueue.isNullOrEmpty().not() && index >= 0 && index < mQueue.size) {
+            return mQueue[index]
         } else {
             throw AudioQueueEmptyException("当前的播放队列为空，请先设置播放队列")
         }
     }
+
+    /** 根据实体查询下标 */
     private fun queryAudio(bean: AudioBean): Int {
         return mQueue.indexOf(bean)
+    }
+
+
+    //插放完毕事件处理
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    fun onAudioCompleteEvent(event: AudioCompleteEvent) {
+        next()
+    }
+
+    //播放出错事件处理
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    fun onAudioErrorEvent(event: AudioErrorEvent) {
+        next()
     }
 }
