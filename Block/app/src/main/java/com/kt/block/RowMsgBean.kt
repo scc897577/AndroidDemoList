@@ -6,5 +6,4 @@ package com.kt.block
  * desc    : 
  */
 
-class RowMsgBean {
-}
+class RowMsgBean(var title: String, var text: String)
