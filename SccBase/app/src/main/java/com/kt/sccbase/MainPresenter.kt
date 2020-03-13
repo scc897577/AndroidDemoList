@@ -1,8 +1,8 @@
 package com.kt.sccbase
 
-import com.kotlin.base.rx.BaseSubscriber
 import com.kt.lib_base.ext.execute
 import com.kt.lib_base.presenter.BasePresenter
+import com.kt.lib_base.rx.BaseSubscriber
 import javax.inject.Inject
 
 class MainPresenter @Inject constructor() : BasePresenter<MainView>() {
@@ -15,8 +15,8 @@ class MainPresenter @Inject constructor() : BasePresenter<MainView>() {
             return
         }
         mView.showLoading()
-        service.test(appKey, type).execute(object : BaseSubscriber<TestBean>(mView) {
-            override fun onNext(t: TestBean) {
+        service.test(appKey, type).execute(object : BaseSubscriber<TestResp>(mView) {
+            override fun onNext(t: TestResp) {
                 mView.onTest(t)
             }
         }, lifecycleProvider)

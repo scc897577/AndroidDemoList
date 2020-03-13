@@ -26,7 +26,7 @@ android {
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation rootProject.depsLibs.kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
     api rootProject.depsLibs.appcompact
     api rootProject.depsLibs.design
     api rootProject.depsLibs.recyclerview
@@ -58,10 +58,12 @@ dependencies {
     api rootProject.depsLibs.rxlifecycle2c
     //glide
     api rootProject.depsLibs.glide
-    api rootProject.depsLibs.glidecompiler
+    annotationProcessor  rootProject.depsLibs.glidecompiler
     //多状态视图
     api rootProject.depsLibs.multiStateView
     //底部导航
     api rootProject.depsLibs.bottomnavigationbar
+    //动态改变Retrofit的BaseURL
+    api rootProject.depsLibs.retrofiturlmanager
 }
 

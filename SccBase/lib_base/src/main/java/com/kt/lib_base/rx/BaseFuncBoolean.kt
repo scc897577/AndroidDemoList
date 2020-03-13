@@ -1,8 +1,7 @@
-package com.kotlin.base.rx
+package com.kt.lib_base.rx
 
-import com.kotlin.base.common.ResultCode
-import com.kotlin.base.data.protocol.BaseResp
-import com.kt.lib_base.rx.BaseException
+import com.kt.lib_base.common.ResultCode
+import com.kt.lib_base.data.protocol.BaseResp
 import io.reactivex.Observable
 import io.reactivex.functions.Function
 

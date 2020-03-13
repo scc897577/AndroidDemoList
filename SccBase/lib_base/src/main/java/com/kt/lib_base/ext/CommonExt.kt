@@ -6,8 +6,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import com.kennyc.view.MultiStateView
-import com.kotlin.base.rx.BaseFuncBoolean
-import com.kotlin.base.rx.BaseSubscriber
+import com.kt.lib_base.rx.BaseFuncBoolean
+import com.kt.lib_base.rx.BaseSubscriber
 import com.kt.lib_base.R
 import com.kt.lib_base.data.protocol.BaseResp
 import com.kt.lib_base.rx.BaseFunc

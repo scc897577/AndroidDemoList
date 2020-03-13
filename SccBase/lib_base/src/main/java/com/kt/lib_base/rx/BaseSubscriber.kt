@@ -1,7 +1,7 @@
-package com.kotlin.base.rx
+package com.kt.lib_base.rx
 
-import com.kotlin.base.presenter.view.BaseView
-import com.kt.lib_base.rx.BaseException
+import com.kotlin.base.rx.DataNullException
+import com.kt.lib_base.presenter.view.BaseView
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 
