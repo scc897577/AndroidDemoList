@@ -22,6 +22,7 @@ ext {
                    glidecompiler  : '4.9.0',
                    okhttp         : '3.3.0',
                    gson           : '2.8.0',
+                   kotlin         : '1.3.50',
     ]
 
     depsLibs = [appcompact     : 'androidx.appcompat:appcompat:1.0.0',
@@ -39,5 +40,6 @@ ext {
                 glidecompiler  : "com.github.bumptech.glide:compiler:${depsVersion.glidecompiler}",
                 okhttp         : "com.squareup.okhttp3:okhttp:${depsVersion.okhttp}",
                 gson           : "com.google.code.gson:gson:${depsVersion.gson}",
+                kotlin         : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${depsVersion.kotlin}"
     ]
 }

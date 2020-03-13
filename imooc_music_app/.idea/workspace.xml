@@ -6,13 +6,365 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b788abc1-fe7b-422f-a7df-02a1f7f8596e" name="Default Changelist" comment="" />
+    <list default="true" id="b788abc1-fe7b-422f-a7df-02a1f7f8596e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../C2Java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/androidTest/java/com/kt/c2java/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/cpp/native-lib.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/java/com/kt/c2java/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/java/com/kt/c2java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/app/src/test/java/com/kt/c2java/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C2Java/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinMall/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/androidTest/java/com/kt/sccbase/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/java/com/kt/sccbase/Api.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/java/com/kt/sccbase/ApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/java/com/kt/sccbase/ApiServiceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/java/com/kt/sccbase/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/java/com/kt/sccbase/MainPresenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/java/com/kt/sccbase/MainView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/java/com/kt/sccbase/Repository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/java/com/kt/sccbase/TestBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/app/src/test/java/com/kt/sccbase/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/config.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/androidTest/java/com/kt/lib_base/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/common/AppManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/common/BaseApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/common/BaseConstant.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/common/ResultCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/data/net/RetrofitFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/data/protocol/BaseResp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/ext/CommonExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/injection/ActivityScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/injection/PerComponentScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/injection/component/ActivityComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/injection/component/AppComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/injection/module/ActivityModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/injection/module/AppModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/injection/module/LifecycleProviderModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/presenter/BasePresenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/presenter/view/BaseView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/rx/BaseException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/rx/BaseFunc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/rx/BaseFuncBoolean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/rx/BaseSubscriber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/rx/DataNullException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/ui/activity/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/ui/activity/BaseMvpActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/ui/activity/BaseTakePhotoActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/ui/adapter/BaseRecyclerViewAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/ui/fragment/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/ui/fragment/BaseMvpFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/utils/AppPrefsUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/utils/DateUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/utils/GlideUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/utils/NetWorkUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/utils/YuanFenConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/widgets/BottomNavBar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/widgets/DefaultTextWatcher.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/widgets/HeaderBar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/widgets/LabelTextView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/widgets/ProgressLoading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/widgets/RoundRectImageView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/java/com/kt/lib_base/widgets/VerifyButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/header9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/icon_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/progress_dialog_anim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/drawable/progress_dialog_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/layout/layout_header_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/layout/layout_label_textview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/layout/layout_state_empty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/layout/layout_state_error.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/layout/layout_state_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/layout/progress_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/values/ids.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/main/res/values/styles_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/lib_base/src/test/java/com/kt/lib_base/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SccBase/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_qrcode_libs_zxing_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_share_libs_MobCommons_2016_0811_1207_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_share_libs_MobTools_2016_0811_1207_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_share_libs_ShareSDK_Core_2_7_5_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_share_libs_ShareSDK_QQ_2_7_5_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_share_libs_ShareSDK_QZone_2_7_5_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_share_libs_ShareSDK_Wechat_2_7_5_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_share_libs_ShareSDK_Wechat_Core_2_7_5_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___E__AndroidDemoList_AndroidDemoList_imooc_music_app_lib_share_libs_ShareSDK_Wechat_Moments_2_7_5_jar_unspecified_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/androidTest/java/com/kt/audiolib/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/app/AudioHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/app/BaseApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/bean/AudioBean.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/bean/AudioCompleteEvent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/bean/AudioErrorEvent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/bean/AudioLoadEvent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/bean/AudioPauseEvent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/bean/AudioReleaseEvent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/bean/AudioStartEvent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/exception/AudioQueueEmptyException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/mediaplayer/AudioController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/mediaplayer/AudioFocusManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/mediaplayer/AudioPlayer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/mediaplayer/CustomMediaPlayer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/java/com/kt/audiolib/service/MusicService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/app/src/test/java/com/kt/audiolib/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AudioLib/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinMall/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinMall/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinMall/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinMall/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinMall/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinMall/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinMall/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinMall/BaseLibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinMall/BaseLibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinMall/BaseLibrary/src/main/res/drawable-xxhdpi/drawable-xxhdpi.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/androidTest/java/com/kt/scclib/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/java/com/kt/scclib/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/app/src/test/java/com/kt/scclib/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/androidTest/java/com/kt/netlib/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/java/com/kt/netlib/BaseApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/java/com/kt/netlib/TestActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/java/com/kt/netlib/net/RetrofitFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/release/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/layout/activity_test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/netlib/src/test/java/com/kt/netlib/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SccLib/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hackware1993_MagicIndicator_1_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hackware1993_MagicIndicator_1_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/imooc.gradle" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="6HJDU19702108416" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -21,38 +373,49 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc_voice/src/main/java/com/imooc/imooc_voice/view/discory/DiscoryBannerView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_audio/src/main/java/com/imooc/lib_audio/mediaplayer/view/MusicPlayerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imooc_voice/src/main/java/com/imooc/imooc_voice/view/home/adpater/HomePagerAdapter.java">
+        <entry file="file://$PROJECT_DIR$/imooc_voice/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_base/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rootProject</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -61,6 +424,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/imooc_voice/src/main/java/com/imooc/imooc_voice/view/home/adpater/HomePagerAdapter.java" />
+        <option value="$PROJECT_DIR$/imooc.gradle" />
+        <option value="$PROJECT_DIR$/imooc_voice/build.gradle" />
       </list>
     </option>
   </component>
@@ -70,135 +435,37 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages AndroidView="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imooc_voice" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imooc_voice" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imooc_voice" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="discory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imooc_voice" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="friend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imooc_voice" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imooc_voice" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="loading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imooc_voice" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imooc_voice" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imooc_voice" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="mine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="lib_audio" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="lib_audio" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="lib_audio" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="lib_audio" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="lib_audio" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="lib_audio" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="lib_audio" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="lib_audio" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="mediaplayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc_music_app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="lib_audio" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="lib_audio" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="mediaplayer" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="ad6097d3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SccLib" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -288,44 +555,39 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.18283582" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Mirror" />
-      <window_info active="true" anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Build" weight="0.32832617" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Preview" weight="0.32995737" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18923241" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Mirror" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imooc_voice/src/main/java/com/imooc/imooc_voice/view/discory/DiscoryBannerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib_audio/src/main/res/layout/activity_music_service_layout.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -336,18 +598,290 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_audio/src/main/java/com/imooc/lib_audio/mediaplayer/view/MusicPlayerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state>
           <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc_voice/src/main/java/com/imooc/imooc_voice/view/home/adpater/HomePagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="102">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_voice/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_voice/src/main/java/com/imooc/imooc_voice/view/discory/DiscoryBannerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_image_loader/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/imooc/lib_image_loader/image/CustomRequestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/imooc/lib_image_loader/image/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.9.0/5f95e3cc34b116a8024f2af42f66e257d2e28ccb/glide-4.9.0-sources.jar!/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/imooc/lib_image_loader/app/ImageLoaderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/cookie/PersistentCookieStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/cookie/SerializableHttpCookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/cookie/SimpleCookieJar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/exception/OkHttpException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/https/HttpsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2706">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/listener/DisposeDataHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/listener/DisposeDataListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/listener/DisposeDownloadListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/listener/DisposeHandleCookieListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/request/CommonRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/request/RequestParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/response/CommonFileCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1790">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/response/CommonJsonCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-844">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_network/src/main/java/com/imooc/lib_network/okhttp/CommonOkHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_audio/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="55" column="19" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_audio/src/main/java/com/imooc/lib_audio/app/service/AudioServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_audio/src/main/java/com/imooc/lib_audio/app/AudioHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_update/src/main/java/com/imooc/lib_update/app/MockData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_update/src/main/java/com/imooc/lib_update/app/UpdateHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_update/src/main/java/com/imooc/lib_update/update/UpdateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_pullalive/src/main/java/com/imooc/lib_pullalive/app/AliveJobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_commin_ui/src/main/java/com/imooc/lib_commin_ui/CommonDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_commin_ui/src/main/java/com/imooc/lib_commin_ui/MultiImageViewLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_commin_ui/src/main/java/com/imooc/lib_commin_ui/SpreadView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_commin_ui/src/main/java/com/imooc/lib_commin_ui/VerticalItemView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_pullalive/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_voice/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_base/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>

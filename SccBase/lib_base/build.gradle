@@ -1,0 +1,67 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+android {
+    compileSdkVersion rootProject.android.compileSdkVersion
+
+
+    defaultConfig {
+        minSdkVersion rootProject.android.minSdkVersion
+        targetSdkVersion rootProject.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation rootProject.depsLibs.kotlin
+    api rootProject.depsLibs.appcompact
+    api rootProject.depsLibs.design
+    api rootProject.depsLibs.recyclerview
+    api rootProject.depsLibs.constraint
+    api rootProject.depsLibs.supportv4
+    //eventbus类库依赖
+    api rootProject.depsLibs.eventbus
+    //greendao类库依赖
+    api rootProject.depsLibs.greendao
+    //rxjava库
+    api rootProject.depsLibs.rxjava
+    api rootProject.depsLibs.rxandroid
+    //gson解析库
+    api rootProject.depsLibs.gson
+    //anko和ankov4
+    api rootProject.depsLibs.anko
+    api rootProject.depsLibs.ankov4
+    //retrofit
+    api rootProject.depsLibs.okhttp
+    api rootProject.depsLibs.okhttplogging
+    api rootProject.depsLibs.retrofit
+    api rootProject.depsLibs.retrofitgson
+    api rootProject.depsLibs.retrofitrxjava
+    //Dagger2
+    api rootProject.depsLibs.dagger2
+    kapt rootProject.depsLibs.daggercompiler
+    //rxLifeCircle
+    api rootProject.depsLibs.rxlifecycle2
+    api rootProject.depsLibs.rxlifecycle2c
+    //glide
+    api rootProject.depsLibs.glide
+    api rootProject.depsLibs.glidecompiler
+    //多状态视图
+    api rootProject.depsLibs.multiStateView
+    //底部导航
+    api rootProject.depsLibs.bottomnavigationbar
+}
+
