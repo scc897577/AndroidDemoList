@@ -15,8 +15,11 @@ open class BaseActivity : AppCompatActivity() {
                 try {
                     //建议使用下面方式在控制台打印异常，这样就可以在Error级别看到红色log
                     Log.e("AndroidRuntime", "--->CockroachException:$thread<---", throwable)
-                    DialogUtilGlobal.buildDialog(this@BaseActivity,"错误","asdas").create().show()
-                    //                        throw new RuntimeException("..."+(i++));
+                    throwable.message?.let {
+                        DialogUtilGlobal.buildDialog(this@BaseActivity,"错误",
+                            it
+                        ).create().show()
+                    }
                 } catch (e: Throwable) {
 
                 }
